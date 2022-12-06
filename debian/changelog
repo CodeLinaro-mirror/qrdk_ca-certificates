@@ -18,6 +18,9 @@ ca-certificates (20220111) UNRELEASED; urgency=medium
   * Drop trailing space from debconf template causing misformatting
     (closes: #980821)
 
+  [ Wataru Ashihara ]
+  * Make certdata2pem.py compatible with cryptography >= 35 (closes: #1008244)
+
  -- Julien Cristau <jcristau@debian.org>  Tue, 11 Jan 2022 14:13:46 +0100
 
 ca-certificates (20211016) unstable; urgency=low
