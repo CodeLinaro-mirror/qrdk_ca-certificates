@@ -1,4 +1,4 @@
-ca-certificates (20230311) UNRELEASED; urgency=medium
+ca-certificates (20230311) unstable; urgency=medium
 
   [ Đoàn Trần Công Danh ]
   * ca-certificates: compat with non-GNU mktemp (closes: #1000847)
@@ -41,7 +41,7 @@ ca-certificates (20230311) UNRELEASED; urgency=medium
   [ Wataru Ashihara ]
   * Make certdata2pem.py compatible with cryptography >= 35 (closes: #1008244)
 
- -- Julien Cristau <jcristau@debian.org>  Tue, 11 Jan 2022 14:13:46 +0100
+ -- Julien Cristau <jcristau@debian.org>  Sat, 11 Mar 2023 09:47:05 +0100
 
 ca-certificates (20211016) unstable; urgency=low
 
