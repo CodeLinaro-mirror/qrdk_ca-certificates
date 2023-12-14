@@ -36,12 +36,12 @@ should be trusted. Lines that begin with "#" are comment lines and thus ignored.
 Lines that begin with "!" are deselected, causing the deactivation of the CA
 certificate in question.
 .PP
-Certificates must have a .crt extension in order to be included by
-update-ca-certificates. Furthermore all certificates with a .crt extension
-found below /usr/local/share/ca-certificates are also included and implicitly
-trusted.
+Certificates must be in PEM format and have a .crt extension in order to be
+included by update-ca-certificates. Furthermore, all certificates with a .crt
+extension found below /usr/local/share/ca-certificates are also included and
+implicitly trusted.
 .PP
-To add one or more certificates to your machine, copy the certificates in PEM
+To add one or more certificates to the machine, copy the certificates in PEM
 format with the *.crt extension to /usr/local/share/ca-certificates. There
 should be one certificate per file, and not multiple certificates in a single
 file. Then run update-ca-certificates to merge the new certificates into the
@@ -86,7 +86,7 @@ A configuration file.
 .TP
 .I /etc/ssl/certs/ca-certificates.crt
 A single-file version of CA certificates. This holds all CA certificates
-that you activated in /etc/ca-certificates.conf.
+that were activated in /etc/ca-certificates.conf.
 .TP
 .I /usr/share/ca-certificates
 Directory of CA certificates provided by the distribution.
