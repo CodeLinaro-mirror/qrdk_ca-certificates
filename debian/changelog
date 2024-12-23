@@ -1,3 +1,19 @@
+ca-certificates (20241223) UNRELEASED; urgency=medium
+
+  * Update Mozilla certificate authority bundle to version 2.70.
+    The following certificate authorities were added (+):
+    + Telekom Security TLS ECC Root 2020
+    + Telekom Security TLS RSA Root 2023
+    + FIRMAPROFESIONAL CA ROOT-A WEB
+    + TWCA CYBER Root CA
+    + SecureSign Root CA12
+    + SecureSign Root CA14
+    + SecureSign Root CA15
+    The following certificate authorities were removed (-):
+    - Security Communication Root CA (closes: #1063093)
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 23 Dec 2024 12:39:00 +0100
+
 ca-certificates (20240203) unstable; urgency=medium
 
   [ Jeffrey Walton ]
