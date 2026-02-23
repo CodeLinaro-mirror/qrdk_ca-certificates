@@ -1,3 +1,27 @@
+ca-certificates (20260223) UNRELEASED; urgency=medium
+
+  * Update Mozilla certificate authority bundle to version 2.82
+    The following certificate authorities were added (+):
+    + TrustAsia TLS ECC Root CA
+    + TrustAsia TLS RSA Root CA
+    + SwissSign RSA TLS Root CA 2022 - 1
+    + OISTE Server Root ECC G1
+    +  OISTE Server Root RSA G1
+    The following certificate authorities were removed (-):
+    - GlobalSign Root CA
+    - Entrust.net Premium 2048 Secure Server CA
+    - Baltimore CyberTrust Root
+    - Comodo AAA Services root
+    - XRamp Global CA Root
+    - Go Daddy Class 2 CA
+    - Starfield Class 2 CA
+    - CommScope Public Trust ECC Root-01
+    - CommScope Public Trust ECC Root-02
+    - CommScope Public Trust RSA Root-01
+    - CommScope Public Trust RSA Root-02
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 23 Feb 2026 16:34:20 +0100
+
 ca-certificates (20250419) unstable; urgency=medium
 
   [ Alexander Kanavin ]
