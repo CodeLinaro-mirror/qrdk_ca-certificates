@@ -1,8 +1,38 @@
-ca-certificates (20260224) UNRELEASED; urgency=medium
+ca-certificates (20260601) unstable; urgency=medium
 
   * Remove ca-certificates-local example (closes: #988912, #1127101).
+  * Update Mozilla certificate authority bundle to version 2.86
+    The following certificate authority was added (+):
+    + e-Szigno TLS Root CA 2023
+    The following certificate authorities were removed (-):
+    - QuoVadis Root CA 2
+    - QuoVadis Root CA 3
+    - DigiCert Assured ID Root CA
+    - DigiCert Global Root CA
+    - DigiCert High Assurance EV Root CA
+    - SwissSign Gold CA - G2
+    - SecureTrust CA
+    - Secure Global CA
+    - COMODO Certification Authority
+    - Certigna
+    - certSIGN ROOT CA
+    - AffirmTrust Commercial
+    - AffirmTrust Networking
+    - AffirmTrust Premium
+    - AffirmTrust Premium ECC
+    - TeliaSonera Root CA v1
+    - Entrust Root Certification Authority - G2
+    - Entrust Root Certification Authority - EC1
+    - Trustwave Global Certification Authority
+    - Trustwave Global ECC P256 Certification Authority
+    - Trustwave Global ECC P384 Certification Authority
+    - GLOBALTRUST 2020
+    - GTS Root R2
+    - FIRMAPROFESIONAL CA ROOT-A WEB
+    The following certificate authority was renamed (~):
+    ~ "OISTE Server Root RSA G1" (removed leading space)
 
- -- Julien Cristau <jcristau@debian.org>  Mon, 23 Feb 2026 18:57:57 +0100
+ -- Julien Cristau <jcristau@debian.org>  Mon, 01 Jun 2026 15:39:00 +0200
 
 ca-certificates (20260223) unstable; urgency=medium
 
